@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMA bienvenidos</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <!-- css google fons app -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <!-- icono de google -->
+
+    <!-- css costumizado siempre cerca a el cierre de head-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top " data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="Img/img-landinginicio/MoMA180.svg" alt="MOMA" width="120">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button "
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-black" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="membresia.html">Membresia</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- FIN SEGUNDA NAV-->
+   
+    <!-- carrusel bootstrap -->
+    <header>
+        <div id="carruselbanner" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carruselbanner" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#carruselbanner" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-target="#carruselbanner" data-bs-slide-to="2" aria-label="Slide 3">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Img/img-landinginicio/1-carruselgeorgia.jpg" class="d-block w-100" alt="Obra de Gerogia">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Georgia O’Keeffe</h1>
+                        <p>Proximas exposiciones</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/img-landinginicio/2-carruselbotero.jpg" class="d-block w-100" alt="Obra de Botero">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Fernando Botero</h1>
+                        <p>Proximas exposiciones</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Img/img-landinginicio/3-carruseltarsila.jpg" class="d-block w-100" alt="Obra de Tarsila">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Tarsila Do Amaral</h1>
+                        <p>Proximas exposiciones </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselbanner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselbanner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section>
+        <!-- Exposiciones -->
+        <div class="container">
+            <div class="row">
+                <div class="pt-4 ">
+                    <h1 class="display-5 py-3 pb-5">Exposiciones</h1>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <img src="Img/img-landinginicio/4van_gogh.jpg" class="img-fluid" alt="VanGogh">
+                    <a class="btn " href="vangogh.html" role="button">Vincent Van Gogh</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <img src="Img/img-landinginicio/5monet.jpg" class="img-fluid" alt="Monet">
+                    <a class="btn" href="monet.html" role="button">Claude Monet</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <img src="Img/img-landinginicio/6manet.jpg" class="img-fluid" alt="Manet">
+                    <a class="btn" href="manet.html" role="button">Édouard Manet</a>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Exposiciones -->
+        <!-- Tienda inicio -->
+        <div class="container">
+            <div class="pt-4 ">
+                <h1 class="display-5  py-2 pb-4">Tienda</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-7 col-lg-7 mb-3 ">
+                    <img src="Img/img-landinginicio/7TIENDA.jpg" class="img-fluid" alt="Tienda">
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-5 bg-warning pb-2 px-5 pt-4 mb-3">
+                    <h2>¡Visita nuestra tienda online!</h2>
+                    <p>Descubre regalos exclusivos y detalles personalizados</p>
+                    <a href="tienda.html" class="btn btn-primary " role="button" data-bs-toggle="button">saber más</a>
+                </div>
+            </div>
+        </div>
+        <!-- Tienda fin -->
+        <div class="containar mx-5 mb-5
+        ">
+            <div class="pt-4 ms-5">
+                <h1 class="display-5  py-2 pb-4 ps-4">Quienes Somos</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-7 com-lg-7 ps-5 pe-4 ">
+                    <p>En el Museo de Arte Moderno y el MoMA PS1 celebramos la creatividad, la apertura, la tolerancia y
+                        la generosidad. Nuestro objetivo es ser lugares inclusivos, tanto presenciales como en línea,
+                        donde diversas posiciones culturales, artísticas, sociales y políticas sean bienvenidas. Estamos
+                        comprometidos a compartir el arte moderno y contemporáneo más estimulante y esperamos que se una
+                        a nosotros para explorar el arte, las ideas y los problemas de nuestro tiempo.</p>
+                </div>
+                <div class="col-sm-12 col-md-5 com-lg-5 pe-5">
+                    <img src="Img/img-landinginicio/8QuienesSomos.jpeg" class="img-fluid" alt="QuienesSomos">
+                </div>
+            </div>
+        </div>
+        <!-- membresia -->
+        <!-- membresia -->
+        <div id="barramembresia" class="container  pt-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-5 bg-light pb-2 px-5 pt-4 mb-3">
+                    <h2>Conoce los beneficios de la membresia MoMA</h2>
+                    <a href="tienda.html" class="btn btn-primary mt-5 " role="button" data-bs-toggle="button">Saber más</a>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 mb-3 ">
+                    <img src="Img/img-landinginicio/membresia01.jpeg" class="img-fluid" alt="membresia">
+                </div>
+              
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="bg-light pt-4" >
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                    <p>seguinos:</p>
+                    <ul class="list-inline redes">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/themuseumofmodernart/" class="text-decoration-none fs-4">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/@themuseumofmodernart" class="text-decoration-none fs-4">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none fs-4">
+                                <i class="bi bi-spotify"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-decoration-none fs-4">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>¡Gracias por visitarnos!</p>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 text-start">
+                    <p>
+                        11 W 53rd St, New York, NY 10019, EE. UU.
+                    </p>
+                    <p>
+                        Visita el MoMA PS1 en Queens Gratis para los neoyorquinos
+                    </p>
+                    <p>
+                        Compra tu ticket online
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

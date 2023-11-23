@@ -1,0 +1,33 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-toggler{
+    color: black;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.titulosomos{
+    background-color: #F2CE16;
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+.quienes-somos-texto{
+    padding: 5%;
+}
+.container1{
+    padding: 5%;
+}
+
+.section2{
+    background-color: #EFF1A3;
+}
+
+.expo{
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+#barramembresia{
+    background:url(Img/img-landinginicio/blurfondo.jpeg)
+}
